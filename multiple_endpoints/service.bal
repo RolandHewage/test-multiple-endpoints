@@ -12,7 +12,7 @@ service / on new http:Listener(9090) {
         if name is "" {
             return error("name should not be empty!");
         }
-        return "Hello 2.0, " + name;
+        return "Hello 2.1, " + name;
     }
 }
 
@@ -28,6 +28,6 @@ service / on new http:Listener(9091) {
         if name is "" {
             return error("name should not be empty!");
         }
-        return "Hello 2.0 friend, " + name;
+        return "Hello 2.1 friend, " + name;
     }
 }
